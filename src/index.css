@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/* styles.css
+.gradient-text {
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+  background-image: linear-gradient(45deg, #780310 50%, #1702b4 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+} */
+
+
+.gradient-border {
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to right, #6600ff, #bd0000) 20; 
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.knowt {
+    font-size: 2.5rem; 
+    padding-bottom: 40px;
+    background-image: linear-gradient(45deg,#780310,#1702b4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Georgia;
+}
+.ai-driven {
+    font-size: 1.5rem;
+    padding: 0 0 40px 0;
+    line-height: 1.7;
+    color: #c7c7c7;
+    text-shadow: 4px 4px 8px #000;
+}
+
+button:hover, 
+button:focus, 
+button:active {
+    box-shadow: 0 0 20px rgb(88, 90, 240);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+}
